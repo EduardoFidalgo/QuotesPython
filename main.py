@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import requests
 import pandas as pd
 from datetime import datetime
@@ -27,8 +21,3 @@ while True:
     print(f"Cotação Atualizada. {datetime.now()}")
 
     time.sleep(60)
-# In[ ]:
-
-
-
-
